@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sobre - Centro Cirúrgico Hospitalar</title>
+    <style>
+    /* CSS para a página Sobre */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9fafb;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 15px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover {
+      background: #005fa3;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    main h2 {
+      color: #0077cc;
+      margin-top: 0;
+      text-align: center;
+    }
+    section#history,
+    section#team {
+      margin-bottom: 30px;
+    }
+    section#history img {
+      float: right;
+      margin-left: 20px;
+      max-width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background: #0077cc;
+      color: white;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+    }
+    @media(max-width: 600px){
+      section#history img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho com navegação -->
+  <header>
+    <h1>Centro Cirúrgico Hospitalar</h1>
+    <nav>
+      <ul>
+      <li><a href="../index/index.html">Início</a></li>
+      <li><a href="../sobre/sobre.html">Sobre</a></li>
+      <li><a href="../galeria/galeria.html">Especialidade</a></li>
+      <li><a href="../contato/contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Informações sobre o hospital -->
+  <main>
+    <h2>Sobre Nós</h2>
+    <p>Somos um centro cirúrgico dedicado à excelência em saúde. Atuamos com tecnologia de ponta e equipe especializada.</p>
+    <ul>
+      <li>Profissionais experientes</li>
+      <li>Ambiente seguro</li>
+      <li>Equipamentos modernos</li>
+    </ul>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Centro Cirúrgico Hospitalar</p>
+  </footer>
+</body>
+</html>
